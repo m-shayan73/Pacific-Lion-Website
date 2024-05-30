@@ -1,0 +1,590 @@
+/* home-1-section */
+.about-1-section {
+    padding-top: 30px;
+    background: linear-gradient(90deg, white 66%, var(--yellow) 66%);
+
+}
+
+#about-1-text {
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+}
+
+.about-1-section .schedule-btn {
+    background: var(--yellow) !important;
+    padding: 20px;
+    margin: 0px 60px;
+    position: relative;
+    left: 200px;
+    z-index: 2;
+}
+
+
+/* home-2-section */
+
+.about-2-counter {
+    margin-top: 25px;
+}
+
+.about-2-counter .col-1 {
+    padding: 0 !important;
+    margin: 0 0 18px !important;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.counter-text h5 {
+    color: black;
+    letter-spacing: unset;
+    font-size: 16px !important;
+    font-weight: 500 !important;
+}
+
+
+/* services-section */
+
+#pacific-text {
+    position: relative;
+    top: 25%;
+    left: 38%;
+}
+
+.service-circles {
+    margin-top: 80px;
+}
+
+#services-circles-bl {
+    position: relative;
+    top: 120px;
+}
+
+.service-cards {
+    display: flex;
+}
+
+.card-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.card {
+    border: none;
+    border-radius: 0;
+    width: 90%;
+}
+
+.card-img {
+    border-radius: 0;
+}
+
+.card-text {
+    padding: 16px 0px 0px 0px !important;
+}
+
+.card-text p{
+    font-size: 18px !important;
+    line-height: 30px !important;
+}
+
+
+/* booking-section */
+
+.booking-container {
+    display: flex;
+}
+
+.booking-columns {
+    display: flex;
+    gap: 10px;
+}
+
+.book-col {
+    width: 12vw;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    padding-bottom: 7vh;
+    position: relative;
+    transition: all 0.3s;
+}
+
+.book-col:hover, .book-col.active {
+    width: 34vw;
+    border-radius: 0 40% 0 0;
+    align-items: start !important;
+    justify-content: start !important;
+    padding: 7vh 5vw 7vh 3vw;
+    transition: all 0.5s ease;
+}
+
+.booking-text-container {
+    width: 100%;
+}
+
+.book-col-text-vertical {
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+}
+
+.book-col-text-vertical h3 {
+    color: white;
+}
+
+.book-col-text-hor,
+.book-col:hover .book-col-text-vertical, .book-col.active .book-col-text-vertical {
+    display: none;
+}
+
+.book-col:hover .book-col-text-hor, .book-col.active .book-col-text-hor {
+    display: block !important;
+    animation: fadeIn 1.5s ease-out;
+}
+
+.book-col-text-hor h3, .booking-card h3{
+    color: var(--yellow);
+    margin-bottom: 2vh;
+}
+
+.book-col-text-hor button {
+    position: absolute;
+    bottom: 0;
+    right: -35%;
+    padding: 20px 50px;
+    display: flex;
+    color: black;
+    font-weight: 500;
+}
+
+.booking-text {
+    padding: 0 160px 0 50px;
+}
+
+#booking-circles {
+    display: flex;
+    position: relative;
+    margin-bottom: 7vh;
+    margin-left: auto;
+}
+
+.booking-card {
+    background: #171717;
+    height: 322px;
+    margin: 10px 10px 0;
+    padding: 20px;
+}
+
+
+/* partner-section */
+
+#partner-circles-yellow {
+    position: absolute;
+}
+
+#partner-circles-bl {
+    position: absolute;
+}
+
+.partner-text {
+    background-image: url(./pics/partner-text-bg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    text-align: center;
+    padding: 0 30%;
+    margin-bottom: 50px;
+}
+
+.partner-cards .card {
+    height: 500px;
+    background: #C4C4C4;
+    width: 100%;
+}
+
+.partner-cards .col-sm-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* testimonial-section */
+
+.review {
+    display: flex;
+    flex-direction: column;
+    padding: 10% 8%;
+    height: 100%;
+}
+
+.review-by {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 8%;
+}
+
+.review-by h3 {
+    font-size: 24px !important;
+    font-weight: 500 !important;
+    line-height: 34px !important;
+}
+
+.review-by h5 {
+    font-size: 18px !important;
+    letter-spacing: unset !important;
+    line-height: normal !important;
+}
+
+.review-text p {
+    font-size: 18px !important;
+    line-height: normal !important;
+    margin: 0 !important;
+}
+
+
+/* blogs-section */
+
+.blog-section-header h5 {
+    color: white;
+}
+
+.blog-section-text h3 {
+    color: white;
+}
+
+.blog-section-text p {
+    color: white;
+}
+
+#blg-rec {
+    position: absolute;
+    z-index: -1;
+    width: 60%;
+    max-height: 350px !important;
+}
+
+.blog-card {
+    background: white;
+    border: 2pt solid var(--yellow);
+    padding: 7%;
+    margin: 0 5px;
+}
+
+.blog-card h5 {
+    font-size: 14px !important;
+    line-height: 34px !important;
+    letter-spacing: 2.72px !important;
+    margin-bottom: 50px !important;
+}
+
+.blog-card p {
+    font-size: 22px !important;
+    line-height: normal !important;
+    padding-right: 20% !important;
+}
+
+.blog-arrow {
+    display: flex;
+    justify-content: end;
+    margin: 10px 0 20px 0;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: rgba(68, 68, 68, 0.397) !important;
+}
+
+
+
+@media (max-width: 1200px) {
+
+    /* home-1-section */
+    #about-1-text {
+        margin-top: 30px;
+    }
+
+    .about-1-section .schedule-btn {
+        margin: 0;
+        padding: 15px;
+        bottom: 30px;
+    }
+
+    /*  */
+    #booking-circles {
+        height: 100px !important;
+    }
+
+
+    /*  */
+    #blg-rec {
+        max-height: 270px !important;
+    }
+}
+
+@media (max-width: 991px) {
+
+    /* home-1-section */
+    .about-1-section {
+        padding-top: 70px;
+    }
+
+    #about-1-text {
+        margin-top: 0;
+    }
+
+    #about-1-img {
+        margin-bottom: 2vh;
+    }
+
+    .about-1-section .schedule-btn {
+        left: 0;
+        bottom: 0;
+        top: 2vh;
+    }
+
+    .white-arrow-svg {
+        width: 50px !important;
+    }
+
+
+    /* home-2-section */
+    .counter-text .col-4 {
+        padding: 0 0 0 12px;
+    }
+
+    .counter-text .col-3 {
+        padding: 0 0 0 12px;
+    }
+
+    .counter-text h5 {
+        font-size: 14px !important;
+        line-height: 24px !important;
+    }
+
+
+    /* services-section */
+    .service-circles {
+        margin-top: 40px;
+    }
+
+    .card-column {
+        padding: 0px 10px;
+    }
+
+    .card-text p{
+        font-size: 14px !important;
+        line-height: 24px !important;
+    }
+
+
+    /* booking-section */
+    .book-col {
+        max-height: 600px;
+    }
+
+    #booking-circles {
+        height: 100px !important;
+    }
+
+    .book-col-text-hor button {
+        padding: 10px 25px;
+        right: -55%;
+    }
+
+
+    /* testimonials-section */
+    .review-by .col-4 {
+        padding: 0 5px;
+    }
+
+    .review-by h3 {
+        font-size: 21px !important;
+        margin-bottom: 4px !important;
+    }
+
+    .review-by h5 {
+        font-size: 17px !important;
+        margin-bottom: 4px !important;
+    }
+
+    .review-text p {
+        font-size: 14px !important;
+        margin-bottom: 4px !important;
+    }
+
+
+    /* blogs-section */
+
+    .blog-card p {
+        font-size: 16px !important;
+    }
+}
+
+@media (max-width: 767px) {
+
+    /* about-1-section */
+    .about-1-section {
+        background: linear-gradient(90deg, white 70%, var(--yellow) 70%);
+        padding-top: 50px;
+    }
+
+    .about-1-section .schedule-btn {
+        top: 0;
+    }
+
+    /* about-2-section */
+
+    .counter-text h5 {
+        font-size: 13px !important;
+    }
+
+    /* services-section */
+
+    #pacific-text {
+        top: 25%;
+        left: 0;
+    }
+
+    .service-cards {
+        position: relative;
+        bottom: 3vh;
+    }
+
+
+    /* booking-section */
+    .book-col {
+        max-height: 450px;
+        padding-bottom: 3vh;
+    }
+
+    .booking-text {
+        padding: 0 10px;
+    }
+
+    /* partner-section */
+    .partner-text {
+        padding: 0 30px;
+    }
+
+    .partner-cards .card {
+        max-height: 400px;
+    }
+
+    /* testimonial-section */
+    .review-by h3 {
+        font-size: 18px !important;
+    }
+
+    .review-by h5 {
+        font-size: 15px !important;
+    }
+
+    /* blog-section */
+    .blog-section .col-1.p-0 {
+        padding: 0 12px 0 0 !important;
+    }
+
+    .blog-section h3 {
+        font-size: 24px !important;
+    }
+
+    .blog-section p {
+        font-size: 14px !important;
+        line-height: 18px !important;
+    }
+
+    #blg-rec {
+        padding-bottom: 250px;
+        background: var(--yellow);
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+    /* booking-section */
+
+    .book-col:hover, .book-col.active {
+        width: 12vw;
+        border-radius: 0;
+        justify-content: center !important;
+        align-items: end !important;
+        padding: 0 0 4vh 0 !important;
+    }
+
+    .book-col:hover .book-col-text-vertical, .book-col.active .book-col-text-vertical {
+        display: block !important;
+    }
+
+    .book-col:hover .book-col-text-hor, .book-col.active .book-col-text-hor {
+        display: none !important;
+    }
+
+    .booking-card button.btn{
+        color: black;
+        width: 100% !important;
+    }
+}
+
+@media (max-width: 575px) {
+    header {
+        background: white !important;
+    }
+
+    .about-1-section {
+        background: linear-gradient(180deg, white 70%, var(--yellow) 70%);
+    }
+
+    .booking-container {
+        flex-direction: column-reverse;
+        height: auto;
+    }
+
+    .booking-columns {
+        display:flex;
+        transform: rotate(90deg) !important;
+    }
+
+    .book-col {
+        display:inline-flex;
+        width: 16vw;
+        height: 100vw;
+        max-height: unset !important;
+        padding-bottom: 10px;
+    }
+
+    .book-col:hover, .book-col.active {
+        width: 64vw;
+        border-radius: 0;
+        padding: 10px 20px !important;
+        justify-content:start !important;
+    }
+
+    .book-col:hover .book-col-text-hor, .book-col.active .book-col-text-hor{
+        transform: rotate(180deg);
+        writing-mode: vertical-rl;
+    }
+    
+    .book-col h3{
+        font-weight: 600 !important;
+        letter-spacing: 1.2px;
+        margin-left: 10px !important;
+    }
+
+    .book-col p {
+        margin: 0 0 0 10px;
+    }
+
+    .book-col button.btn {
+        position: static !important;
+        padding: 10px;
+        height: 100%;
+    }
+}
