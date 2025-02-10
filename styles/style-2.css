@@ -136,7 +136,7 @@ textarea {
 
 .contact-img {
     display: flex;
-    background-image: url(./pics/contact-section.png);
+    background-image: url(./pics/contact-section.webp);
     background-size: cover;
     background-repeat: no-repeat;
     margin-top: 60px;

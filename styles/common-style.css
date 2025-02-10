@@ -173,7 +173,7 @@ p {
 /* help-section */
 
 .help-bg {
-    background-image: url(../assets/help-bg.png);
+    background-image: url(../assets/help-bg.webp);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
@@ -208,7 +208,7 @@ p {
 /* Title-section */
 
 .title-section {
-    background-image: url(../assets/title-bg.png);
+    background-image: url(../assets/title-bg.webp);
     background-repeat: no-repeat;
     background-size: cover;
     height: 350px;
@@ -298,7 +298,7 @@ p {
     /* help-section */
     .help-bg {
         padding: 50px 80px;
-        background-image: url(../assets/help-bg-plain.png);
+        background-image: url(../assets/help-bg-plain.webp);
     }
 
     .help-section button {
